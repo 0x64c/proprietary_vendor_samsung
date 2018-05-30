@@ -68,6 +68,32 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libqmiservices.so:system/blobs/tmo/vendor/lib/libqmiservices.so \
     vendor/samsung/trlte/proprietary/blobs/tmo/vendor/lib/libril-qcril-hook-oem.so:system/blobs/tmo/vendor/lib/libril-qcril-hook-oem.so
 PRODUCT_COPY_FILES += \
+    vendor/samsung/trlte/proprietary/blobs/can/bin/efsks:system/blobs/can/vendor/bin/efsks \
+    vendor/samsung/trlte/proprietary/blobs/can/bin/ks:system/blobs/can/vendor/bin/ks \
+    vendor/samsung/trlte/proprietary/blobs/can/bin/mdm_helper:system/blobs/can/vendor/bin/mdm_helper \
+    vendor/samsung/trlte/proprietary/blobs/can/bin/mdm_helper_proxy:system/blobs/can/vendor/bin/mdm_helper_proxy \
+    vendor/samsung/trlte/proprietary/blobs/can/bin/netmgrd:system/blobs/can/vendor/bin/netmgrd \
+    vendor/samsung/trlte/proprietary/blobs/can/bin/qcks:system/blobs/can/vendor/bin/qcks \
+    vendor/samsung/trlte/proprietary/blobs/can/bin/qmuxd:system/blobs/can/vendor/bin/qmuxd \
+    vendor/samsung/trlte/proprietary/blobs/can/lib/libprotobuf-cpp-full.so:system/blobs/can/vendor/lib/libprotobuf-cpp-full.so \
+    vendor/samsung/trlte/proprietary/blobs/can/lib/libsec-ril.so:system/blobs/can/vendor/lib/libsec-ril.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libcneapiclient.so:system/blobs/can/vendor/lib/libcneapiclient.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libconfigdb.so:system/blobs/can/vendor/lib/libconfigdb.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libdiag.so:system/blobs/can/vendor/lib/libdiag.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libdsutils.so:system/blobs/can/vendor/lib/libdsutils.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libidl.so:system/blobs/can/vendor/lib/libidl.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libmdmdetect.so:system/blobs/can/vendor/lib/libmdmdetect.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libnetmgr.so:system/blobs/can/vendor/lib/libnetmgr.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libqcci_legacy.so:system/blobs/can/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libqmi.so:system/blobs/can/vendor/lib/libqmi.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libqmi_cci.so:system/blobs/can/vendor/lib/libqmi_cci.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libqmi_client_qmux.so:system/blobs/can/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libqmi_common_so.so:system/blobs/can/vendor/lib/libqmi_common_so.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libqmi_csi.so:system/blobs/can/vendor/lib/libqmi_csi.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libqmi_encdec.so:system/blobs/can/vendor/lib/libqmi_encdec.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libqmiservices.so:system/blobs/can/vendor/lib/libqmiservices.so \
+    vendor/samsung/trlte/proprietary/blobs/can/vendor/lib/libril-qcril-hook-oem.so:system/blobs/can/vendor/lib/libril-qcril-hook-oem.so
+PRODUCT_COPY_FILES += \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/efsks:system/blobs/vzw/vendor/bin/efsks \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/ks:system/blobs/vzw/vendor/bin/ks \
     vendor/samsung/trlte/proprietary/blobs/vzw/bin/mdm_helper:system/blobs/vzw/vendor/bin/mdm_helper \
